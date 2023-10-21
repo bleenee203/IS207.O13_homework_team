@@ -1,0 +1,30 @@
+body {
+    background: #ffedca;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 510px;
+    padding: 10px;
+}
+
+table,
+td {
+    width: 510px;
+    height: 30px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.address {
+    width: 250px;
+}
+
+.btn {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
